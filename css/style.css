@@ -1,7 +1,12 @@
 html {
   font-family: "Trebuchet MS", sans-serif;
+  color: hsl(50, 50%, 80%);
+}
+
+nav {
+  border-bottom: 1px solid black;
 }
 
 body {
-  background-color: MintCream;
+  background-color: hsl(200, 50%, 20%);
 }
