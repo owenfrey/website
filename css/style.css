@@ -7,7 +7,7 @@ nav {
   border-bottom: 1px solid black;
 }
 
-nav > a:link, nav > a:visited {
+nav a:link, nav a:visited {
   color: hsl(50, 50%, 80%);
 }
 
