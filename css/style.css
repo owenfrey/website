@@ -18,11 +18,11 @@ body {
   background-attachment: fixed;
 }
 
-body a:link {
+main a:link {
   color: aliceblue;
 }
 
-body a:visited {
+main a:visited {
   color: lightcyan;
 }
 
