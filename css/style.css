@@ -1,31 +1,42 @@
 html {
-  font-family: "Trebuchet MS", sans-serif;
-  color: white;
+  font-family: courier new, monospace;
+  background-image: url("background.png")
 }
 
 nav {
-  border-bottom: 1px solid white;
+  background-color: lightgrey;
+  margin: 10px;
 }
 
-nav a:link, nav a:visited {
-  color: white;
+main {
+  background-color: lightgrey;
+  margin: 20px;
 }
 
 body {
-  background-color: hsl(200, 50%, 20%);
-  background-image: linear-gradient(hsl(200, 50%, 20%), hsl(240, 50%, 20%));
-  background-size: cover;
-  background-attachment: fixed;
+  margin: 0px;
 }
 
-main a:link {
-  color: aliceblue;
+p {
+  padding: 10px;
 }
 
-main a:visited {
-  color: lightcyan;
+nav a:hover {
+  text-shadow: 0em -2em, 0em -1em, 0em 1em, 0em 2em, 0em 3em, 0em 4em, 0em 5em, 0em 6em, 0em 7em, 0em 8em, 0em 9em, 0em 10em;
 }
 
-a {
-  text-decoration: none;
+nav li {
+	margin-right: 10px;
+}
+
+.navbar {
+	margin: 0px;
+	padding: 10px;
+	display: flex;
+	list-style: none;
+}
+
+.glitchy {
+	border: 1px solid grey;
+	box-shadow: 4px 4px #995CD0, 8px 8px #8EDF5F;
 }
