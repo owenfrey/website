@@ -1,16 +1,31 @@
 html {
   font-family: "Trebuchet MS", sans-serif;
-  color: hsl(50, 50%, 80%);
+  color: white;
 }
 
 nav {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 nav a:link, nav a:visited {
-  color: hsl(50, 50%, 80%);
+  color: white;
 }
 
 body {
   background-color: hsl(200, 50%, 20%);
+  background-image: linear-gradient(hsl(200, 50%, 20%), hsl(240, 50%, 20%));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body a:link {
+  color: aliceblue;
+}
+
+body a:visited {
+  color: lightcyan;
+}
+
+a {
+  text-decoration: none;
 }
