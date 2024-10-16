@@ -5,12 +5,12 @@ html {
 }
 
 nav {
-  background-color: lightgrey;
+  background-color: white;
   margin: 10px;
 }
 
 main {
-  background-color: lightgrey;
+  background-color: white;
   margin: 20px;
 }
 
@@ -34,7 +34,7 @@ nav li {
 }
 
 .glitchy {
-	border: 1px solid grey;
+	border: 1px solid lightgrey;
 	box-shadow: 4px 4px #995CD0, 8px 8px #8EDF5F; /*Fallback if browser doesn't support RGBA*/
   box-shadow: 4px 4px rgba(153, 92, 208, 0.5), 8px 8px rgba(142, 223, 95, 0.5);
   padding: 10px;
