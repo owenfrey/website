@@ -56,4 +56,5 @@ nav li {
 
 .flexdiv {
   display: flex;
+  flex-wrap: wrap;
 }
