@@ -8,12 +8,16 @@ html {
 
 nav {
   background-color: #e1dee3;
+  background-image: url("/hexagon.png");
+  border: 2px solid #dfdfdf;
   box-shadow: 4px 4px #d3a900;
   margin: 10px;
 }
 
 main {
   background-color: #e1dee3;
+  background-image: url("/hexagon.png");
+  border: 2px solid #dfdfdf;
   box-shadow: 4px 4px #b20018;
   margin: 20px;
 }
@@ -56,5 +60,5 @@ nav li {
 
 .flexdiv {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
